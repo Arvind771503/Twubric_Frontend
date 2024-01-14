@@ -1,0 +1,54 @@
+.main-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 0px 20px rgb(10 10 95 / 47%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+    .user-name-img {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        padding-left: 1.5rem;
+
+        .profile {
+            width: 7rem;
+            border-radius: 5rem;
+        }
+    }
+
+    .follow-section {
+        display: flex;
+        justify-content: space-around;
+
+        .post-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #333;
+            align-items: center;
+
+            .post-text {
+                font-weight: 400;
+            }
+        }
+
+    }
+
+    .user-name {
+        color: #333;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+}
